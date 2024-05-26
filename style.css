@@ -23,7 +23,7 @@
 
 .nombre {
     color: #ff00ff; /* Cambia el color a rosa (#ff00ff) */
-    font-size: 4vw; /* Tamaño de fuente relativo al ancho de la pantalla */
+    font-size: 3vw; /* Tamaño de fuente relativo al ancho de la pantalla */
     font-family: Arial, sans-serif; /* Fuente personalizada si lo deseas */
     text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* Efecto de neón */
     animation: neonColorChange 1.5s infinite alternate; /* Animación de cambio de color más rápida */
