@@ -13,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Color blanco para el texto */
+    color: #ff00ff; /* Cambia el color a rosa (#ff00ff) */
     font-size: 24px; /* Tamaño de fuente personalizado */
     font-family: Arial, sans-serif; /* Fuente personalizada si lo deseas */
     text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* Efecto de neón */
