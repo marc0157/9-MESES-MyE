@@ -279,11 +279,8 @@ function draw(){
 // main.js
 
 const phrases = [
-    "Marco 
-       y
-    Esther",
-    "Feliz 9 MDC
-       #26",
+    "Marco y Esther",
+    "Feliz 9 meses",
     "Te Amo ♥ Bonita"
 ];
 
