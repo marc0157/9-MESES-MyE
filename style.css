@@ -13,17 +13,6 @@ body {
     font-size: 3rem;
     color: #fff; /* Color blanco */
     text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 30px rgba(0, 178, 255, 1);
+    text-shadow: 0 0 10px #00b2ff, 0 0 20px #00b2ff, 0 0 30px #00b2ff;
     /* Sombras de neón en distintas posiciones */
-    animation: neon-glow 1s ease-in-out infinite alternate;
-    /* Animación que alterna entre el estado original y el brillo */
-}
-
-@keyframes neon-glow {
-    from {
-        text-shadow: 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 30px rgba(0, 178, 255, 1);
-    }
-    to {
-        text-shadow: 0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(0, 178, 255, 1), 0 0 60px rgba(0, 178, 255, 1);
-    }
 }
