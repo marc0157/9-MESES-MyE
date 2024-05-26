@@ -1,8 +1,5 @@
-/* style.css */
-
 /* Estilos para el corazón de neón */
 #canvas {
-    /* Asegura que el canvas ocupe toda la pantalla */
     position: absolute;
     top: 0;
     left: 0;
