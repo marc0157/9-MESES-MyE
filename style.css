@@ -26,10 +26,36 @@
     0% {
         color: #ff00ff; /* Rosa */
     }
-    50% {
+    5% {
         color: #0000ff; /* Azul */
     }
-    100% {
+    10% {
+        color: #00ffff; /* Cian */
+    }
+    15% {
         color: #ff00ff; /* Rosa */
     }
+    20% {
+        color: #ffff00; /* Amarillo */
+    }
+    25% {
+        color: #00ff00; /* Verde */
+    }
+    30% {
+        color: #ff00ff; /* Rosa */
+    }
+    35% {
+        color: #ff9900; /* Naranja */
+    }
+    40% {
+        color: #ff00ff; /* Rosa */
+    }
+    45% {
+        color: #ff0000; /* Rojo */
+    }
+    50% {
+        color: #ff00ff; /* Rosa */
+    }
+    /* Continúa con más colores según tus preferencias */
 }
+
