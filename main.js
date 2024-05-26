@@ -280,8 +280,10 @@ function draw(){
 
 const phrases = [
     "Marco y Esther",
-    "Feliz 9 meses",
+    "Feliz 9 MCD #26",
     "Te Amo ♥ Bonita"
+    "♥ Animos Tú Puedes♥"
+    "♥ MyE # 26 ♥"
 ];
 
 const nombreElement = document.querySelector(".nombre");
