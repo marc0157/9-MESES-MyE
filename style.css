@@ -1,20 +1,29 @@
-/* Estilos para el corazón de neón */
-#canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* styles.css */
+
+body {
+    background-color: #000; /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* Estilos para los nombres */
-#nombres {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff; /* Color blanco para el texto */
-    font-size: 24px; /* Tamaño de fuente personalizado */
-    font-family: Arial, sans-serif; /* Fuente personalizada si lo deseas */
-    z-index: 10; /* Asegura que los nombres estén por encima del canvas */
+.neon-text {
+    font-size: 3rem;
+    color: #fff; /* Color blanco */
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 30px rgba(0, 178, 255, 1);
+    /* Sombras de neón en distintas posiciones */
+    animation: neon-glow 1s ease-in-out infinite alternate;
+    /* Animación que alterna entre el estado original y el brillo */
+}
+
+@keyframes neon-glow {
+    from {
+        text-shadow: 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 30px rgba(0, 178, 255, 1);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(0, 178, 255, 1), 0 0 60px rgba(0, 178, 255, 1);
+    }
 }
