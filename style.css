@@ -1,7 +1,6 @@
-.heart-shape {
-    background-color: red;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    transform: rotate(-45deg);
+body {
+  background-color: #000;    
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
