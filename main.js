@@ -276,5 +276,26 @@ function draw(){
 
   requestAnimationFrame(draw);
 }
+// main.js
+
+const phrases = [
+    "Marco y Esther",
+    "Feliz 9 meses",
+    "Te Amo ♥ Bonita"
+];
+
+const nombreElement = document.querySelector(".nombre");
+let currentPhraseIndex = 0;
+
+function changePhrase() {
+    nombreElement.textContent = phrases[currentPhraseIndex];
+    currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+}
+
+// Cambia la frase inicial
+changePhrase();
+
+// Cambia la frase cada 2 segundos
+setInterval(changePhrase, 2000);
 
 draw();
