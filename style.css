@@ -16,5 +16,20 @@
     color: #fff; /* Color blanco para el texto */
     font-size: 24px; /* Tamaño de fuente personalizado */
     font-family: Arial, sans-serif; /* Fuente personalizada si lo deseas */
+    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* Efecto de neón */
+    animation: neonBlink 2s infinite alternate; /* Animación de parpadeo */
     z-index: 10; /* Asegura que los nombres estén por encima del canvas */
+}
+
+/* Animación de parpadeo */
+@keyframes neonBlink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
