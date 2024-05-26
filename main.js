@@ -281,8 +281,8 @@ function draw(){
 const phrases = [
     "Marco y Esther",
     "Feliz 9 MCD #26",
-    "Te Amo ♥ Bonita"
-    "♥ Animos Tú Puedes♥"
+    "Te Amo ♥ Bonita",
+    "♥ Animos Tú Puedes♥",
     "♥ MyE # 26 ♥"
 ];
 
